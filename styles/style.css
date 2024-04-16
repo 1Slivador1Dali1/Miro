@@ -115,3 +115,35 @@ h1 {
     line-height: 1.3;
     color: #4262ff;
 }
+
+#hero-three {
+    display: flex;
+    height: 550px;
+}
+
+.hero-three-div-one {
+    padding-left: 40px;
+    margin-right: 310px;
+}
+
+.header-two-second {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #050038;
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+
+.heroText-three {
+    width: 430px;
+    height: 120px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.3;
+    color: rgba(5, 0, 56, 0.6);
+    margin-bottom: 40px;
+}
