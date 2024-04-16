@@ -46,6 +46,7 @@ li a {
     height: 600px;
     padding-top: 60px;
     padding-left: 40px;
+    margin-bottom: 50px;
 }
 
 h1 {
@@ -66,6 +67,43 @@ h1 {
     font-size: 18px;
     line-height: 1.3;
     color: #050038;
+    margin-bottom: 55px;
+}
+
+#email {
+    border: 1px solid #9b99af;
+    border-radius: 32px;
+    width: 440px;
+    height: 48px;
+    margin-bottom: 10px;
+}
+
+#heroButton {
+    border: 1px solid #4262ff;
+    border-radius: 32px;
+    width: 440px;
+    height: 51px;
+    background-color: #4262ff;
+    margin-bottom: 8px;
+}
+
+.button-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+}
+
+.heroLogos {
+    display: flex;
+    margin-top: 50px;
+}
+
+.heroLogos span {
+padding-top: 7px;
+margin-right: 20px;
 }
 
 .hero-div-one {
@@ -146,4 +184,28 @@ h1 {
     line-height: 1.3;
     color: rgba(5, 0, 56, 0.6);
     margin-bottom: 40px;
+}
+
+footer {
+    height: 120px;
+}
+
+.footer {
+    display: flex;
+    background-color: #050038;
+    padding: 40px 0px 40px 40px;
+}
+
+.footer div, a {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.footer a {
+    text-decoration: none;
 }
